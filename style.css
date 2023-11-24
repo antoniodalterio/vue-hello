@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+  background-color: #202124;
+}
+
+.red {
+  color: #e60b0b;
+  text-shadow: 2px 3px 5px #04259c;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #0f0f0f;
+  font-size: 64px;
+}
+
+.sizing {
+  width: 700px;
+  height: 700px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 5px solid #b11313;
+}

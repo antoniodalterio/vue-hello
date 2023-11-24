@@ -4,10 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vue Hello</title>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- My CSS -->
   </head>
   <body>
     <div id="app">
-      <h1>{{message}}</h1>
+      <h1 :class="classText">{{message}}</h1>
+      <img :src="img" alt="" :class="classImg" />
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="main.js"></script>
