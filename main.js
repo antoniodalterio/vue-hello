@@ -4,9 +4,12 @@ createApp({
   data() {
     return {
       message: "L'amichevole Spider-Man di quartiere",
-      img: 'marvel.jpg',
-      classImg: 'sizing',
       classText: 'red',
+      img: {
+        class: 'sizing',
+        src: 'marvel.jpg',
+        alt: 'Immagine di Spider-Man',
+      },
     };
   },
 }).mount('#app');

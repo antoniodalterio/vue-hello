@@ -11,7 +11,7 @@
   <body>
     <div id="app">
       <h1 :class="classText">{{message}}</h1>
-      <img :src="img" alt="" :class="classImg" />
+      <img v-bind="img" />
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="main.js"></script>
